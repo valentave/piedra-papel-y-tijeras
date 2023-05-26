@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piedra, papel y tijeras</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Piedra, papel o tijeras</title>
 </head>
 <body>
-    
+    <div id="mainTitle" class="main-title">
+        <h1>PIEDRA, PAPEL O TIJERAS</h1>
+    </div>
+    <div id="playButton">
+        <button>PLAY</button>
+    </div>
+    <div id="gameBody" style="display: none;">
+        <div id="scoreTable">
+            <p>Puntuación</p>
+            <ul class="score-names">
+                <li id="playerPoints">Player: 0</li>
+                <li id="cpuPoints">CPU: 0</li>
+            </ul>
+        </div>
+        <div id="buttonsContainer">
+            <button id="piedra" class="selection"><img src="images/piedra.png">Piedra</button>
+            <button id="papel" class="selection"><img src="images/papel.png">Papel</button>
+            <button id="tijeras" class="selection"><img src="images/tijeras.png">Tijeras</button>
+        </div>
+        <div id="btn-restart" style="display: none;">
+            <button>Volver a jugar</button>
+        </div>
+    </div>
+    <div id="gameRound" style="display: none;">
+        <div class="player-choice">
+            <img src="images/blank.png" class="img-player">
+        </div>
+        <span>VS.</span>
+        <div class="cpu-choise">
+            <img src="images/blank.png" class="img-cpu">
+        </div>
+    </div>
+    <div id="gameResult" style="display: none;">
+        <p class="round-comment">Elije una opción</p>
+        <h1 class="result-comment"></h1>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
