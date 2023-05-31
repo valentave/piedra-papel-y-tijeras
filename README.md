@@ -8,4 +8,4 @@ El juego de Piedra, Papel o Tijeras es un clásico juego de manos donde dos juga
 
 El objetivo del juego es vencer al oponente eligiendo la opción que le gana. El juego se juega en rondas hasta que uno de los jugadores alcance una cantidad predefinida (5 en este caso) de victorias.
 
-Live preview - https://valentave.github.io/landing-page/
+Live preview - https://valentave.github.io/piedra-papel-y-tijeras/
